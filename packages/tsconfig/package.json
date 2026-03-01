@@ -1,0 +1,11 @@
+{
+  "name": "@repo/tsconfig",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.9"
+  }
+}

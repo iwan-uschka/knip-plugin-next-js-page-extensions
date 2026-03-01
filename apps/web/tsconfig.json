@@ -1,0 +1,16 @@
+{
+  "extends": "@repo/tsconfig/nextjs.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": [".next", ".turbo", "node_modules", "public"],
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    // "noImplicitAny": true,
+    // "noUnusedLocals": true,
+    "paths": {
+      "@pages/*": ["./src/pages/*"],
+      "@repo/*": ["../../packages/*"]
+    }
+  }
+}
