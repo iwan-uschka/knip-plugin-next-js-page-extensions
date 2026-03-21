@@ -6,6 +6,6 @@
     "preinstall": "npx only-allow pnpm"
   },
   "devDependencies": {
-    "@types/node": "24.10.9"
+    "@types/node": "25.5.0"
   }
 }
