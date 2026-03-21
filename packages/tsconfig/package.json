@@ -5,7 +5,8 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm"
   },
-  "devDependencies": {
-    "@types/node": "25.5.0"
+  "dependencies": {
+    "@types/node": "25.5.0",
+    "type-fest": "5.5.0"
   }
 }
